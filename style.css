@@ -12,15 +12,16 @@ h1,h2,h3,h4,h5,h6,p{
     background-image: url(images/donation4.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 100vh;
     width: 100%;
 }
 .banner-section-inner {
     text-align: center;
-    width: 900px;
+    width: 50%;
     color: white;
     margin: 0 auto;
-    padding: 260px;
+    padding: 260px 0;
 }
 .banner-section-inner h1 {
     font-size: 70px;
@@ -42,7 +43,7 @@ h1,h2,h3,h4,h5,h6,p{
 
 .donate-today-main-section,.get-update-main-section{
     padding: 150px 0;
-    width: 900px;
+    width: 50%;
     margin: 0 auto;
     text-align: center;
 }
@@ -79,7 +80,7 @@ h1,h2,h3,h4,h5,h6,p{
     border: 1px solid tomato;
 }
 .donate-plan-main-section{
-    width: 900px;
+    width: 50%;
     margin: 0 auto;
 }
 .donate-plan-main-section h2{
