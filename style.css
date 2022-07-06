@@ -1,14 +1,20 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
 }
 
-h1,h2,h3,h4,h5,h6,p{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin: 0;
 }
 
-.banner-section-main{
+.banner-section-main {
     background-image: url(images/donation4.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,6 +22,7 @@ h1,h2,h3,h4,h5,h6,p{
     height: 100vh;
     width: 100%;
 }
+
 .banner-section-inner {
     text-align: center;
     width: 50%;
@@ -23,15 +30,18 @@ h1,h2,h3,h4,h5,h6,p{
     margin: 0 auto;
     padding: 260px 0;
 }
+
 .banner-section-inner h1 {
     font-size: 70px;
     margin: 40px 0;
     line-height: 1;
 }
-.banner-section-inner p{
+
+.banner-section-inner p {
     margin-bottom: 55px;
     font-size: 20px;
 }
+
 .donate-button {
     text-decoration: none;
     background-color: tomato;
@@ -41,92 +51,115 @@ h1,h2,h3,h4,h5,h6,p{
     font-size: 20px;
 }
 
-.donate-today-main-section,.get-update-main-section{
+.donate-today-main-section,
+.get-update-main-section {
     padding: 150px 0;
     width: 50%;
     margin: 0 auto;
     text-align: center;
 }
-.donate-today-main-section h2,.get-update-main-section h2,.team-section-main h2{
+
+.donate-today-main-section h2,
+.get-update-main-section h2,
+.team-section-main h2 {
     font-size: 35px;
 }
-.donate-today-main-section p,.get-update-main-section p,.team-section-main p{
+
+.donate-today-main-section p,
+.get-update-main-section p,
+.team-section-main p {
     font-size: 20px;
     margin: 25px 0;
 }
-.donate-section-inner{
+
+.donate-section-inner {
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin: 50px 0;
 }
-.donate-section-inner h3{
+
+.donate-section-inner h3 {
     width: 17%;
     background-color: whitesmoke;
     padding: 40px 0;
     font-size: 25px;
     border-radius: 5px;
 }
-.input-amount-fild input{
-        width: 100%;
-        border: none;
-        border-bottom: 1px solid silver;
-        margin-bottom: 30px;
-        text-align: center;
-        font-size: 20px;
+
+.input-amount-fild input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid silver;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 20px;
 }
-.active-donate{
+
+.active-donate {
     background-color: #e9dcdc !important;
     border: 1px solid tomato;
 }
-.donate-plan-main-section{
+
+.donate-plan-main-section {
     width: 50%;
     margin: 0 auto;
 }
-.donate-plan-main-section h2{
+
+.donate-plan-main-section h2 {
     font-size: 35px;
     text-align: center;
 }
-.donate-palan-description{
+
+.donate-palan-description {
     font-size: 20px;
     margin: 25px 0;
     text-align: center;
 }
-.donate-plan-inner{
+
+.donate-plan-inner {
     display: flex;
     justify-content: space-between;
-    
+
 }
-.donate-plan-inner div{
+
+.donate-plan-inner div {
     width: 25%;
     padding: 30px;
     border-radius: 5px;
 }
-.donate-plan-inner h3{
+
+.donate-plan-inner h3 {
     padding: 15px 0;
 }
-.donate-plan-inner p{
+
+.donate-plan-inner p {
     font-size: 16px;
     padding: 5px 0;
-  
+
 }
-.food{
+
+.food {
     background-color: aliceblue;
 }
-.shelter{
+
+.shelter {
     background-color: rgb(245, 224, 224);
 }
-.education{
+
+.education {
     background-color: rgb(240, 217, 169);
 }
-.subscribe-email-section-main{
+
+.subscribe-email-section-main {
     width: 80%;
     background-color: rgb(240 217 169);
     margin: 0 auto;
     padding: 50px 0;
     border-radius: 5px;
 }
-.subscribe-email-section-inner input{
+
+.subscribe-email-section-inner input {
     padding: 10px;
     width: 35%;
     border-top-left-radius: 5px;
@@ -134,7 +167,8 @@ h1,h2,h3,h4,h5,h6,p{
     border-bottom-left-radius: 5px;
     background: #f9f1f1;
 }
-.subscribe-btn{
+
+.subscribe-btn {
     text-decoration: none;
     background-color: tomato;
     padding: 10px 25px;
@@ -145,38 +179,40 @@ h1,h2,h3,h4,h5,h6,p{
     border-bottom-right-radius: 5px;
 }
 
-.team-section-main{
+.team-section-main {
     width: 50%;
     margin: 0 auto;
     text-align: center;
     padding-top: 150px;
 }
-.team-section-inner{
+
+.team-section-inner {
     display: flex;
     justify-content: space-between;
 }
-.team-section-inner div{
+
+.team-section-inner div {
     width: 30%;
     background: #f7f7f7;
     border-radius: 5px;
     padding-bottom: 10px;
-    
+
 }
 
-.team-section-inner img{
+.team-section-inner img {
     width: 85%;
     padding: 18px 0;
 }
 
 
-footer{
+footer {
     background-color: black;
     color: white;
     padding: 70px;
     text-align: center;
 }
 
-footer h2{
+footer h2 {
     color: tomato;
     margin-bottom: 10px;
 }
