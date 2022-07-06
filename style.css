@@ -1,0 +1,36 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+
+.banner-section-main{
+    background-image: url(images/donation4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.banner-section-inner{
+    text-align: center;
+    width: 700px;
+    color: white;
+    margin: 0 auto;
+    padding-top: 300px;
+}
+.banner-section-inner h1{
+    font-size: 60px;
+    padding: 20px 0;
+    
+}
+.banner-section-inner p{
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+.donate-button{
+    text-decoration: none;
+    
+}
