@@ -14,23 +14,66 @@ h1,h2,h3,h4,h5,h6,p{
     background-size: cover;
     height: 100vh;
 }
-.banner-section-inner{
+.banner-section-inner {
     text-align: center;
-    width: 700px;
+    width: 900px;
     color: white;
     margin: 0 auto;
-    padding-top: 300px;
+    padding: 260px;
 }
-.banner-section-inner h1{
-    font-size: 60px;
-    padding: 20px 0;
-    
+.banner-section-inner h1 {
+    font-size: 70px;
+    margin: 40px 0;
+    line-height: 1;
 }
 .banner-section-inner p{
-    padding-bottom: 20px;
-    font-size: 18px;
+    margin-bottom: 55px;
+    font-size: 20px;
 }
-.donate-button{
+.donate-button {
     text-decoration: none;
-    
+    background-color: tomato;
+    padding: 15px 25px;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.donate-today-main-section{
+    padding: 150px 0;
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+.donate-today-main-section h2{
+    font-size: 35px;
+}
+.donate-today-main-section p{
+    font-size: 20px;
+    margin: 25px 0;
+}
+.donate-section-inner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+.donate-section-inner h3{
+    width: 17%;
+    background-color: whitesmoke;
+    padding: 40px 0;
+    font-size: 25px;
+    border-radius: 5px;
+}
+.input-amount-fild input{
+         width: 100%;
+        border: none;
+        border-bottom: 1px solid silver;
+        margin-bottom: 30px;
+        text-align: center;
+        font-size: 20px;
+}
+.active-donate{
+    background-color: #e9dcdc !important;
+    border: 1px solid tomato;
 }
