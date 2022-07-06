@@ -1,3 +1,4 @@
+/* Global section css start */
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -13,7 +14,8 @@ h6,
 p {
     margin: 0;
 }
-
+/* Global section css end */
+/* Banner section css start */
 .banner-section-main {
     background-image: url(images/donation4.png);
     background-repeat: no-repeat;
@@ -50,7 +52,8 @@ p {
     border-radius: 5px;
     font-size: 20px;
 }
-
+/* Banner section css end */
+/* Donate today section css start */
 .donate-today-main-section,
 .get-update-main-section {
     padding: 150px 0;
@@ -100,7 +103,8 @@ p {
     background-color: #e9dcdc !important;
     border: 1px solid tomato;
 }
-
+/* Donate today section css end */
+/* Donate plan section css start */
 .donate-plan-main-section {
     width: 50%;
     margin: 0 auto;
@@ -150,7 +154,8 @@ p {
 .education {
     background-color: rgb(240, 217, 169);
 }
-
+/* Donate plan section css end */
+/* subscribe section css start */
 .subscribe-email-section-main {
     width: 80%;
     background-color: rgb(240 217 169);
@@ -178,7 +183,8 @@ p {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-
+/* subscribe section css start */
+/* Team section css start */
 .team-section-main {
     width: 50%;
     margin: 0 auto;
@@ -203,8 +209,8 @@ p {
     width: 85%;
     padding: 18px 0;
 }
-
-
+/* Team section css end */
+/* Footer section css start */
 footer {
     background-color: black;
     color: white;
@@ -216,3 +222,4 @@ footer h2 {
     color: tomato;
     margin-bottom: 10px;
 }
+/* Footer section css end */
