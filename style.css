@@ -47,10 +47,10 @@ h1,h2,h3,h4,h5,h6,p{
     margin: 0 auto;
     text-align: center;
 }
-.donate-today-main-section h2,.get-update-main-section h2{
+.donate-today-main-section h2,.get-update-main-section h2,.team-section-main h2{
     font-size: 35px;
 }
-.donate-today-main-section p,.get-update-main-section p{
+.donate-today-main-section p,.get-update-main-section p,.team-section-main p{
     font-size: 20px;
     margin: 25px 0;
 }
@@ -144,6 +144,31 @@ h1,h2,h3,h4,h5,h6,p{
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+
+.team-section-main{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 150px;
+}
+.team-section-inner{
+    display: flex;
+    justify-content: space-between;
+}
+.team-section-inner div{
+    width: 30%;
+    background: #f7f7f7;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    
+}
+
+.team-section-inner img{
+    width: 85%;
+    padding: 18px 0;
+}
+
+
 footer{
     background-color: black;
     color: white;
